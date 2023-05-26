@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
-mongoose.connect("", {useNewUrlParser : true});
+mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser : true});
 // mongoose.set('debug', true);
 
 const app = express();
