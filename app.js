@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
-mongoose.connect("mongodb+srv://jesusCode:jesusCode@cluster0.legj65k.mongodb.net/todolistDB", {useNewUrlParser : true});
+mongoose.connect("", {useNewUrlParser : true});
 // mongoose.set('debug', true);
 
 const app = express();
